@@ -140,7 +140,7 @@ const Signup = props => {
             }
             AsyncStorage.setItem("user", JSON.stringify(users));
             alert("Registered Successfully");
-            // props.navigation.goBack()
+            props.navigation.replace("Login")
         } else {
             alert("Please fill all the fields");
         }

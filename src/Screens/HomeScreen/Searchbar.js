@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 
   },
   searchBar__unclicked: {
-    padding: 7,
+    padding: 4,
     flexDirection: "row",
     width: "95%",
     backgroundColor: "#fff",
